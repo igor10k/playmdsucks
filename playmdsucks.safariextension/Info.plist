@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Igor Kozlov</string>
+	<key>Builder Version</key>
+	<string>10600.1.25</string>
+	<key>CFBundleDisplayName</key>
+	<string>playmdsucks</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.igorkozlov.safari.playmdsucks</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>script.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://play.md/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Replace video with &lt;video&gt; on play.md</string>
+	<key>DeveloperIdentifier</key>
+	<string>NBU9S49ZPK</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>play.md</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://igor10k.github.io/playmdsucks/update.plist</string>
+	<key>Website</key>
+	<string>http://igorkozlov.me</string>
+</dict>
+</plist>
